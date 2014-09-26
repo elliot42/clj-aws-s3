@@ -6,4 +6,6 @@
   :dependencies [[org.clojure/clojure "1.2.1"]
                  [com.amazonaws/aws-java-sdk "1.7.5"]
                  [clj-time "0.6.0"]]
-  :plugins [[codox "0.8.10"]])
+  :plugins [[codox "0.8.10"]]
+  :repositories  [["clojars"  {:url "https://clojars.org/repo"
+                               :sign-releases false}]])
